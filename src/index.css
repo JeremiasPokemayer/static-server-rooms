@@ -1,0 +1,107 @@
+body {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.title-home {
+  margin: 0;
+  padding: 16px 31px 26px;
+  font-weight: 700;
+  font-size: 52px;
+}
+
+.div-form,
+.div-form-hide {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 31px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.input-home,
+.input-chat,
+.input-select {
+  width: 100%;
+  height: 55px;
+  border: 2px solid;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.div-form-hide {
+  display: none;
+}
+
+.button-comenzar {
+  margin: 31px 31px;
+  height: 55px;
+  width: 85%;
+  background-color: rgba(156, 187, 233, 1);
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.container-chat {
+  padding: 32px;
+}
+
+.title-chat {
+  margin: 0;
+}
+
+.submit-message {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-enviar {
+  background-color: rgba(156, 187, 233, 1);
+  height: 55px;
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 24px;
+  border: none;
+  border-radius: 4px;
+}
+
+.messages {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.container-user-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.container-other-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-message {
+  background-color: rgba(185, 233, 124, 1);
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.other-message {
+  background-color: rgba(216, 216, 216, 1);
+  display: flex;
+  flex-direction: column;
+}

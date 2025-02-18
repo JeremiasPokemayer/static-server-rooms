@@ -1,0 +1,30 @@
+{
+  "name": "firebase-rtdb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@vaadin/router": "^2.0.0",
+    "firebase": "8.7.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.1.0",
+    "nanoid": "3.3.4",
+    "nodemon": "^3.1.9",
+    "parcel": "^2.13.3",
+    "process": "^0.11.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "dev:front": "parcel src/index.html",
+    "dev": "nodemon index.ts",
+    "build:front": "parcel build src/index.html",
+    "build:api": "tsc index.ts",
+    "build": "yarn build:front && yarn build:api",
+    "start": "node index.ts"
+  }
+}
