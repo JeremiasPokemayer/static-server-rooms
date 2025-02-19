@@ -13,6 +13,12 @@ app.use(express.static("dist"));
 const usersCollection = firestore.collection("users");
 const roomCollection = firestore.collection("rooms");
 
+app.get("/env", (req, res) => {
+  res.json({
+    enviroment: process.env.ENVIROMENT,
+  });
+});
+
 app.post("/signup", (req, res) => {
   const email = req.body.email;
   const nombre = req.body.nombre;

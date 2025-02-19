@@ -1,3 +1,5 @@
 node_modules
 .parcel-cache
 key.json
+.env
+dev.ts
