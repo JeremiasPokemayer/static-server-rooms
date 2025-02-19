@@ -22,9 +22,7 @@
   "scripts": {
     "dev:front": "parcel src/index.html",
     "dev": "nodemon index.ts",
-    "build:front": "parcel build src/index.html",
-    "build:api": "tsc index.ts",
-    "build": "yarn build:api",
+    "build": "tsc index.ts",
     "start": "node index.ts"
   }
 }
