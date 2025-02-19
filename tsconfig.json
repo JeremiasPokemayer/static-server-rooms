@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
     "target": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
-  }
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist"
+  },
+  "include": ["index.ts"]
 }

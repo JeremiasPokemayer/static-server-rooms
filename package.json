@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "firebase-admin": "^13.1.0",
     "nanoid": "3.3.4",
@@ -23,7 +24,7 @@
   "scripts": {
     "dev:front": "parcel src/index.html",
     "dev": "nodemon dev.ts",
-    "build": "tsc index.ts",
+    "build": "tsc",
     "start": "node index.js"
   }
 }

@@ -3,3 +3,4 @@ node_modules
 key.json
 .env
 dev.ts
+pnpm-lock.yaml
