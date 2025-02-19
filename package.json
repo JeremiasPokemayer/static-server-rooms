@@ -10,6 +10,7 @@
     "pnpm": "^10.4.1"
   },
   "devDependencies": {
+    "@types/node": "^22.13.4",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
