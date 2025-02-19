@@ -6,7 +6,8 @@
   "dependencies": {
     "@vaadin/router": "^2.0.0",
     "firebase": "8.7.1",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "pnpm": "^10.4.1"
   },
   "devDependencies": {
     "cors": "^2.8.5",
