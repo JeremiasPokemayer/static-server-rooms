@@ -23,6 +23,6 @@
     "dev:front": "parcel src/index.html",
     "dev": "nodemon dev.ts",
     "build": "tsc index.ts",
-    "start": "node index.ts"
+    "start": "node index.js"
   }
 }
